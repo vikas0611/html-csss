@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+
+.top{
+    display: flex;
+    align-items: center;
+    padding: 30px 80px;
+    justify-items: center;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+
+    height: 85px;
+    background-color: #000;
+
+}
+
+.top-main{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top img{
+    
+    width: 95px;
+    height: 30px;
+}
+
+
+.line {
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 63px;
+  }
+
+
+ul{
+
+    display: flex;
+    align-items: start;
+    justify-self: start;
+    gap: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn1{
+    padding: 5px 20px;
+    background: #da0fe9;
+    border-radius: 6px;
+    border: none;
+    font-weight:500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height:20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hero{
+    background-image: url(output/bg.png) ;
+    background-size: cover;
+    height: 900px;
+    text-align: center;
+}
+
+h1{
+    margin: 0 auto;
+    padding-top: 250px;
+    padding-left: 200px;
+    font-weight: 800;
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    line-height: 98px;
+    text-align: center;
+    color: #ffffff;
+}
+
+p{
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 200px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+  line-height: 45px;
+}
+
+.btn{
+    margin-top: 70px;
+    margin-left: 150px;
+    padding: 20px;
+    border: none;
+    background: #d213e0;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
